@@ -19,6 +19,6 @@ public class AlunoController {
     @PostMapping("/save")
     public String inserirAluno(Aluno aluno) {
         System.out.println(aluno.toString());
-        return "redirect:/cadastro";
+        return "redirect:/cadastro/register";
     }
 }
