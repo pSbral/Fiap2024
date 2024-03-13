@@ -1,7 +1,10 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import game.menu.MenuPlayer
+import game.player.Player
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+    val p:Player = Player()
+    val menu: MenuPlayer = MenuPlayer();
+
+    menu.menuRegister(p)
+
 }
