@@ -6,4 +6,11 @@ fun main(args: Array<String>) {
     val menu: MenuPlayer = MenuPlayer();
 
     menu.menuRegister(p)
+
+
+    var user_choice = menu.menuMain(p)
+
+    when(user_choice) {
+        1 -> menu.menuExplore(p)
+    }
 }

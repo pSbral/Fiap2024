@@ -7,8 +7,4 @@ class Job {
     var jobName:String? = null
     var jobSkillName:String? = null
     var jobSkillDmg:Int? = null
-
-    fun jobSelect() {
-
-    }
 }
