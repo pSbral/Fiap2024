@@ -6,5 +6,4 @@ fun main(args: Array<String>) {
     val menu: MenuPlayer = MenuPlayer();
 
     menu.menuRegister(p)
-
 }
